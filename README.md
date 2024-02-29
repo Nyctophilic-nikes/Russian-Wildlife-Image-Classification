@@ -2,6 +2,8 @@
 
 ### 1. Dataset Preparation and Visualization
 #### (a) Data Collection and Splitting
+https://drive.google.com/drive/folders/1f0rnpZNPfoZGwTlZroaxBVJTf9EtdNNc
+
 In this image classification project, we utilize the Russian Wildlife Dataset. The dataset is categorized into ten classes: 'amur leopard', 'amur tiger', 'birds', 'black bear', 'brown bear', 'dog', 'roe deer', 'sika deer', 'wild boar', and 'people'. The class labels are mapped as follows: {'amur leopard': 0, 'amur tiger': 1, 'birds': 2, 'black bear': 3, 'brown bear': 4, 'dog': 5, 'roe deer': 6, 'sika deer': 7, 'wild boar': 8, 'people': 9}. To ensure balanced representation, a stratified random split is performed with ratios of 0.7 for training, 0.1 for validation, and 0.2 for testing.
 
 #### (b) Custom Dataset Class and WandB Initialization
